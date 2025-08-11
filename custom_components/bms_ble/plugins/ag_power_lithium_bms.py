@@ -7,7 +7,7 @@ from bleak.uuids import normalize_uuid_str
 from .basebms import AdvertisementPattern, BaseBMS, BMSsample, BMSvalue
 
 
-class BMS(BaseBMS):
+class BMS(AGPowerLithium):
     """Dummy BMS implementation."""
 
     # _HEAD: Final[bytes] = b"\x55"  # beginning of frame
